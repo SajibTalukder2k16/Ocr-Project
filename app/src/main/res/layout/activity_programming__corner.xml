@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".Programming_Corner">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hasan_wb"
+            android:text="Hasaner Rafkhata"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progkriya"
+            android:id="@+id/progkriya"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subeen.com"
+            android:id="@+id/subeen"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fahim's Web"
+            android:id="@+id/fahim_web"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anindya Paul's blog"
+            android:id="@+id/aninpaulblog"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shakib Ahmed's blog"
+            android:id="@+id/shakil_blog"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudip Sarker's blog"
+            android:id="@+id/sudip_blog"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoshikkha dot com"
+            android:id="@+id/shoshikka"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chorui's Blog"
+            android:id="@+id/chorui_blog"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanvir's Blog"
+            android:id="@+id/tanvir_blog"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dibakor's Blog"
+            android:id="@+id/dibakor"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamim Shariar Subeen youtube channel"
+            android:id="@+id/subeen_youtube"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to code dot com"
+            android:id="@+id/how_code"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faiyaz's Blog"
+            android:id="@+id/faiyaz_blog"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rezwan Arefin Blog"
+            android:id="@+id/rezwan_arefin"/>
+    </LinearLayout>
+
+
+</ScrollView>

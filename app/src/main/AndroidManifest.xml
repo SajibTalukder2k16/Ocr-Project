@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sajib.ocr_mine">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/study_ally_icon"
+        android:label="Study Ally"
+        android:roundIcon="@drawable/study_ally_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity
+            android:name=".OCR_acitivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".AboutDevelopers" />
+        <activity
+            android:name=".Kidscorner"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".kids_corner_alphabet"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".kids_corner_rhyme"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".kids_corner_englishmenu"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Programming_Corner"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".webview1"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Science_Tech"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Option_for_OCR"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".SampleTryOCR"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".kids_corner_banglamenu" />
+        <activity android:name=".kids_corner_alphabet_bengali" />
+        <activity android:name=".kids_corner_rhyme_bengali"></activity>
+    </application>
+
+</manifest>

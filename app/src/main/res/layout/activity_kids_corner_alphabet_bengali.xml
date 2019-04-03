@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#880BA10E">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".kids_corner_alphabet_bengali"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:padding="3dp">
+
+            <Button
+                android:id="@+id/bangla_o"
+                android:text="অ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_ah"
+                android:text="আ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_e"
+                android:text="ই"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:padding="3dp">
+
+            <Button
+                android:id="@+id/bangla_ee"
+                android:text="ঈ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_u"
+                android:text="উ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_uh"
+                android:text="ঊ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:padding="3dp">
+
+            <Button
+                android:id="@+id/bangla_rhi"
+                android:text="ঋ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_ea"
+                android:text="এ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_oi"
+                android:text="ঐ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/bangla_OO"
+                android:text="ও"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+            <Button
+                android:id="@+id/bangla_OOi"
+                android:text="ঔ"
+                android:textSize="65dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/alphabet_button"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

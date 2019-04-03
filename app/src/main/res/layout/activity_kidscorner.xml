@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#079b4e">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kidscornerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Kidscorner">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:padding="7dp"
+            >
+
+                <ImageButton
+                    android:id="@+id/bangla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/kids_corner_bangla"
+                    android:layout_weight="1"
+
+                    />
+                <ImageButton
+                    android:id="@+id/english"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/kids_corner_english"
+                    android:layout_weight="1"
+
+                    />
+                <ImageButton
+                    android:id="@+id/math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/kids_corner_math"
+                    android:layout_weight="1"
+
+                    />
+                <ImageButton
+                    android:id="@+id/story"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/kids_corner_story"
+                    android:layout_weight="1"
+
+                    />
+
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

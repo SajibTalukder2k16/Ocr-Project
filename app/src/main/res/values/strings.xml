@@ -1,0 +1,9 @@
+<resources>
+    <string name="txt_message">No Text Available</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="tech">Science &amp; tech</string>
+    <string name="login">
+        [ *Please Login or Signup for full access.Use Guest mode for limited uses. ]
+    </string>
+
+</resources>
